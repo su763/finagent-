@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "What was Maybank's revenue in 2024 according to the database?",
+    "type": "database",
+    "expected_concept": "68.1"
+  },
+  {
+    "id": 2,
+    "question": "How does Maybank's credit risk strategy compare to CIMB's?",
+    "type": "cross_document",
+    "expected_concept": "concentration"
+  },
+  {
+    "id": 3,
+    "question": "Compare Maybank's 2025 net income with their strategic outlook for the year.",
+    "type": "combined",
+    "expected_concept": "10.2"
+  },
+  {
+    "id": 4,
+    "question": "Who is the CEO of Tesla?",
+    "type": "out_of_bounds",
+    "expected_concept": "lack the data"
+  }
+]
